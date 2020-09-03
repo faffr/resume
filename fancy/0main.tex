@@ -1,0 +1,47 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+\documentclass[localFont,alternative]{fancy_cv_class}
+\usepackage{bibentry}
+\usepackage{natbib}
+
+\name{Daniel Yangsup}{Lee}
+%\photo{2.6cm}{darwiin}
+\tagline{Psychometrician}
+\socialinfo{
+	\linkedin{yangsup}
+	\github{faffr}\\
+	\smartphone{646 852 3261}
+	\email{yangsupL2@gmail.com}\\
+	%\address{2 Rue du quartier, 98765 Ville, Pays}\\
+	%\infos{Né le 23 septembre 1982 (33 ans) à Nouméa, Nouvelle-Calédonie}
+}
+%------------------------------------------
+\begin{document}
+
+\makecvheader
+
+%--------------------SECTIONS-----------------------------------
+
+%\input{1section_headline}
+\vspace{-20pt}
+\input{4section_education}				
+\input{2section_experience}			
+\input{3section_skills}					
+\input{5section_pubs}					
+%\input{section_languages}						% Section langues
+
+%\input{section_interets}					% Section intérêts
+%\input{section_references} 					% Section références
+\bibliographystyle{apalike}
+\nobibliography{bib}
+
+\end{document}
